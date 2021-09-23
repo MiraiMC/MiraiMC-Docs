@@ -7,7 +7,7 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 ## 文字验证码 <a id="word-captcha"></a>
 
 {% hint style="info" %}
-由于文字验证码大概率会被腾讯拒绝，Mirai核心及MiraiMC可能将在未来的版本中移除此验证。
+由于文字验证码**大概率**会被腾讯拒绝，Mirai核心及MiraiMC可能将在未来的版本中**移除**此验证。
 {% endhint %}
 
 {% hint style="success" %}
@@ -38,7 +38,20 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 
 ## 设备锁 <a id="device-locker"></a>
 
+{% hint style="info" %}
+一种更快捷的方式是**直接关闭设备锁**，但这会大大增加账号被盗取和被腾讯冻结的概率。
+{% endhint %}
+
+当需要验证设备锁时，通常会看到诸如此类的警告消息（其中10000为机器人QQ号）：
+
+```text
+[02:34:19 WARN]: [MiraiMC] 当前登录的QQ（10000）需要设备锁验证
+[02:34:19 WARN]: [MiraiMC] 请使用手机QQ打开以下链接进行验证
+[02:34:19 WARN]: [MiraiMC] https://this.is.link/part
+[02:34:19 WARN]: [MiraiMC] 验证完成后，请输入指令 /miraiverify unsafedevice 10000
+[02:34:19 WARN]: [MiraiMC] 如需取消登录，请输入指令 /miraiverify unsafedevicecancel 10000
+[02:34:19 WARN]: [MiraiMC] 如需帮助，请参阅: https://wiki.miraimc.dreamvoid.ml/troubleshoot/verify-guide#device-locker
+```
+
 施工中...
-
-
 
