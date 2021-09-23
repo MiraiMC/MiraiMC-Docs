@@ -11,7 +11,7 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 {% endhint %}
 
 {% hint style="success" %}
-从MiraiMC 1.5版本起，默认验证方式已变为滑块验证码。
+从MiraiMC 1.5版本起，新登录的机器人默认验证方式已变为滑块验证码。
 {% endhint %}
 
 施工中...
