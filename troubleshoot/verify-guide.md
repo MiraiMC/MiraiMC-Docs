@@ -6,6 +6,14 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 
 ## 文字验证码 <a id="word-captcha"></a>
 
+{% hint style="info" %}
+由于文字验证码大概率会被腾讯拒绝，Mirai核心及MiraiMC可能将在未来的版本中移除此验证。
+{% endhint %}
+
+{% hint style="success" %}
+从MiraiMC 1.5版本起，默认验证方式已变为滑块验证码。
+{% endhint %}
+
 施工中...
 
 ## 滑块验证码 <a id="slide-captcha"></a>
