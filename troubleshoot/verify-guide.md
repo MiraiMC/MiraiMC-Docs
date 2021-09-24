@@ -36,6 +36,10 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 3. **完成验证**，之后找到**`cap_union_new_verify`**，转到“**预览**”（“**Preview**”），**ticket行**的**引号**内所有内容即为**ticket值**（如果找不到`cap_union_new_verify`，请检查是否勾选了“已阻止请求”）。如下图：  ![](../.gitbook/assets/ticket.png) 
 4. **回到控制台**，运行命令`/miraiverify slidercaptcha 10000 <ticket>`，将相应的值填入，完成验证。（其中10000为机器人QQ号）
 
+{% hint style="success" %}
+如果你觉得使用开发者工具太麻烦，又或者想在没有安装Chrome等浏览器的服务器环境下验证，可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me/)
+{% endhint %}
+
 ## 设备锁 <a id="device-locker"></a>
 
 {% hint style="info" %}
