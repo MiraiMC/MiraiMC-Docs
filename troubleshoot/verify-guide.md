@@ -40,10 +40,6 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 如果你觉得打开开发者工具太麻烦，也可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me/)
 {% endhint %}
 
-{% hint style="info" %}
-如果你觉得使用开发者工具太麻烦，又或者想在没有安装Chrome等浏览器的服务器环境下验证，可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me/)
-{% endhint %}
-
 ## 设备锁 <a id="device-locker"></a>
 
 {% hint style="info" %}
