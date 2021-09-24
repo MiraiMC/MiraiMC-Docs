@@ -37,6 +37,10 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 4. **回到控制台**，运行命令`/miraiverify slidercaptcha 10000 <ticket>`，将相应的值填入，完成验证。（其中10000为机器人QQ号）
 
 {% hint style="success" %}
+如果你觉得打开开发者工具太麻烦，也可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me/)
+{% endhint %}
+
+{% hint style="info" %}
 如果你觉得使用开发者工具太麻烦，又或者想在没有安装Chrome等浏览器的服务器环境下验证，可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me/)
 {% endhint %}
 
