@@ -37,7 +37,7 @@ Caused by: java.lang.NoSuchMethodError: kotlin.jvm.internal.MutablePropertyRefer
 
 在尝试[mamoe/mirai/\#1126](https://github.com/mamoe/mirai/issues/1126)提供的解决方案后问题仍然存在，认定此问题无法被修复。
 
-## 对用户的建议 <a id="measures"></a>
+## 对用户的建议 <a id="howtosolve"></a>
 
 * 更换其他同类型服务端（如[Mohist](https://mohistmc.com/) 1.7.10）
 
