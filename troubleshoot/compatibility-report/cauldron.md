@@ -2,7 +2,7 @@
 
 ## 描述 <a id="description"></a>
 
-有用户反馈，在使用Uranium等基于Cauldron下游服务端时出现问题。
+有用户反馈，在使用Uranium等基于Cauldron下游服务端时出现报错。
 
 经过测试，确认是由Cauldron内部逻辑导致Mirai的Kotlin库无法正常加载。其报错内容大致如下：
 
