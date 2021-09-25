@@ -13,6 +13,8 @@
   * Uranium
   * Thermos
   * Contigo
+* Catserver（需要补充资料）
+  * （待验证）LoliServer
 
 ## 不兼容的插件 <a id="plugin"></a>
 

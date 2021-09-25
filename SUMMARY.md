@@ -18,4 +18,5 @@
 * [解决无法正常登录机器人](troubleshoot/login-issues.md)
 * [兼容性报告](troubleshoot/compatibility-report/README.md)
   * [Cauldron](troubleshoot/compatibility-report/cauldron.md)
+  * [Catserver](troubleshoot/compatibility-report/catserver.md)
 
