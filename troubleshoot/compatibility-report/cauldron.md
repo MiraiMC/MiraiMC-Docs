@@ -39,7 +39,8 @@ Caused by: java.lang.NoSuchMethodError: kotlin.jvm.internal.MutablePropertyRefer
 
 ## 对用户的建议 <a id="howtosolve"></a>
 
-* 更换其他同类型服务端（如[Mohist](https://mohistmc.com/) 1.7.10）
+* 更换其他服务端或抛弃1.7.10
+* 等待MiraiMC 1.6版本，此版本将可以连接到外部mirai console程序
 
 ## 处理措施 <a id="measures"></a>
 
