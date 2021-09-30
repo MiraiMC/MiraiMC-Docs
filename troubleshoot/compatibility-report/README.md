@@ -13,7 +13,7 @@
   * Uranium
   * Thermos
   * Contigo
-  * Mohist（仅1.7.10）
+  * Mohist（仅1.7.10）（[链接](https://github.com/DreamVoid/MiraiMC/issues/46)）
 * Catserver（需要补充资料）
   * （待验证）LoliServer
 
