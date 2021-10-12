@@ -4,6 +4,10 @@ description: MiraiMC 帮助手册
 
 # 主页
 
+{% hint style="info" %}
+我们正在搬家！MiraiMC 帮助手册即将使用 VuePress 重写，敬请期待！
+{% endhint %}
+
 ## 欢迎 <a id="welcome"></a>
 
 这里是 MiraiMC 的帮助手册页面，你可以在这里找到有关 MiraiMC 的使用教程和其他有用的资料。
