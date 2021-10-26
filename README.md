@@ -16,8 +16,8 @@ description: MiraiMC 帮助手册
 
 ## 选择语言/Select languages
 
-* \*\*\*\*[**中文（简体）**](https://wiki.miraimc.dreamvoid.ml/) ****\(Current\)
-* \*\*\*\*[**English**](https://en.wiki.miraimc.dreamvoid.ml/)
+* [**中文（简体）**](https://wiki.miraimc.dreamvoid.ml/) (Current)
+* [**English**](https://en.wiki.miraimc.dreamvoid.ml/)
 
 ## 外部链接 <a id="other-links"></a>
 
