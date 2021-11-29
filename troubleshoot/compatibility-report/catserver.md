@@ -1,14 +1,12 @@
 # Catserver
 
-{% hint style="info" %}
-这篇兼容性报告所描述的问题尚处于验证阶段。
+## 描述 <a href="#description" id="description"></a>
 
-如果你遇到了相同的问题，请及时反馈并补充相关内容。
-{% endhint %}
+有用户反馈，在使用 CatServer 会出现报错。
 
-## 描述 <a id="description"></a>
+根据已有信息判定，为 CatServer 内部逻辑导致 mirai 核心无法正常工作。
 
-有用户反馈，在使用Catserver会出现报错，目前尚无法复现。
+## 对用户的建议 <a href="#howtosolve" id="howtosolve"></a>
 
-根据已有信息判定，为Catserver内部逻辑导致mirai核心无法正常工作。
-
+* 更换其他服务端或抛弃 CatServer
+* 等待 MiraiMC 1.6 版本，此版本将可以连接到外部 mirai console 程序
