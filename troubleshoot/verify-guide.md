@@ -31,10 +31,10 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 
 请按照以下步骤进行验证：
 
-1. 请使用Chrome、Microsoft Edge等浏览器**打开新标签页**，然后按下**F12**键打开**开发者工具**，并切换到“**网络**”（部分浏览器为“**Network**”）选项卡。如下图：
+1. 请使用Chrome、Microsoft Edge等浏览器**打开新标签页**，然后按下**F12**键打开**开发者工具**，并切换到“**网络**”（部分浏览器为“**Network**”）选项卡。如下图：<br>
 ![Network](https://user-images.githubusercontent.com/45266046/135317286-0583fa9d-d62c-43d8-898a-d70b1be63201.png)
 2. **打开插件给出的链接**（如例子中给出的链接是```https://this.is.link/part```）；
-3. **完成验证**，之后找到```cap_union_new_verify```，转到“**预览**”（“**Preview**”），**ticket行**的**引号**内所有内容即为**ticket值**（如果找不到```cap_union_new_verify```，请检查是否勾选了“已阻止请求”）。如下图：
+3. **完成验证**，之后找到```cap_union_new_verify```，转到“**预览**”（“**Preview**”），**ticket行**的**引号**内所有内容即为**ticket值**（如果找不到```cap_union_new_verify```，请检查是否勾选了“已阻止请求”）。如下图：<br>
 ![ticket (1)](https://user-images.githubusercontent.com/45266046/135317326-7335c700-80b7-4bbd-a087-e4195d9d91b1.png)
 4. **回到控制台**，运行命令```/miraiverify slidercaptcha 10000 <ticket>```，将相应的值填入，完成验证。（其中10000为机器人QQ号）
 
