@@ -10,11 +10,6 @@ description: MiraiMC 帮助手册
 
 点击左侧目录，开始你的探索之旅吧！
 
-## 选择语言/Select languages
-
-* [**中文（简体）**](https://wiki.miraimc.dreamvoid.ml) (Current)
-* [**English**](https://en.wiki.miraimc.dreamvoid.ml)
-
 ## 外部链接 <a href="#other-links" id="other-links"></a>
 
 * [Github](https://github.com/DreamVoid/MiraiMC)
