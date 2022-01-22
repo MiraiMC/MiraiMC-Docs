@@ -1,8 +1,8 @@
-# 配置文件
+# 🛠 配置文件
 
 此页介绍了MiraiMC的配置文件节点，及如何正确的调整这些配置
 
-对于编辑软件，我**推荐**使用 [Visual Studio Code](https://code.visualstudio.com/)，我**不推荐**使用 Notepad++ **反华**软件
+对于编辑软件，我**推荐**使用 [Visual Studio Code](https://code.visualstudio.com)，我**不推荐**使用 Notepad++ **反华**软件
 
 ## 配置节点
 
@@ -101,11 +101,11 @@
 * 建议值：如果你有很多机器人并且这些机器人有很多的群和好友，请将此项设为`false`避免后台刷屏
 
 {% hint style="info" %}
-与**`bot.disable-bot-logs`**不同，此项控制的是插件以事件监听的形式记录日志
+与\*\*`bot.disable-bot-logs`\*\*不同，此项控制的是插件以事件监听的形式记录日志
 {% endhint %}
 
 {% hint style="info" %}
-此项将在之后的版本中移动到**`general`**父项
+此项将在之后的版本中移动到\*\*`general`\*\*父项
 {% endhint %}
 
 #### `contact-cache`
@@ -135,7 +135,7 @@ Mirai 在启动时会拉取全部好友列表和群成员列表。当账号拥�
 {% endhint %}
 
 {% hint style="danger" %}
- Mirai 自动根据事件更新列表，并在每次登录时与服务器校验缓存有效性，**但有时候可能发生意外情况导致列表没有同步。**建议在测试环境使用缓存，而在正式环境关闭缓存（默认关闭缓存）。
+Mirai 自动根据事件更新列表，并在每次登录时与服务器校验缓存有效性，\*\*但有时候可能发生意外情况导致列表没有同步。\*\*建议在测试环境使用缓存，而在正式环境关闭缓存（默认关闭缓存）。
 {% endhint %}
 
 ### `database`
@@ -189,4 +189,3 @@ Mirai 在启动时会拉取全部好友列表和群成员列表。当账号拥�
 * `minimumIdle`
   * 默认值：5
   * 描述：池中至少要有多少空闲连接。当空闲连接小于 `minimumIdle`，总连接小于 `maximumPoolSize` 时，将新增连接，HikariCP 默认等于 `maximumPoolSize`。
-

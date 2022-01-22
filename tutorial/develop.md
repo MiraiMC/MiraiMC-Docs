@@ -2,7 +2,7 @@
 description: 此页介绍了作为插件开发者如何使用MiraiMC的API
 ---
 
-# 基于本插件开发（插件开发者）
+# 🧐 基于本插件开发（插件开发者）
 
 MiraiMC提供了一个Maven开发模板帮助你开发一个新的插件，只需要[点击这里](https://github.com/DreamVoid/MiraiMC-Template)即可使用这个模板
 
@@ -159,8 +159,4 @@ public class CommandExample extends JavaPlugin implements Listener {
         }
     }
 }
-
 ```
-
-
-
