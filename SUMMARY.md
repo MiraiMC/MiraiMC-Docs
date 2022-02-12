@@ -14,7 +14,7 @@
 
 ## 😕 疑难解答 <a href="#troubleshoot" id="troubleshoot"></a>
 
-* [❓ 常见问题](troubleshoot/login-issues.md)
+* [❓ 常见问题](troubleshoot/faq.md)
 * [😶 登录验证指南](troubleshoot/verify-guide.md)
 * [😣 兼容性报告](troubleshoot/compatibility-report/README.md)
   * [Cauldron](troubleshoot/compatibility-report/cauldron.md)
