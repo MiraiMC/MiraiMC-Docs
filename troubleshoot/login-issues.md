@@ -1,17 +1,23 @@
 ---
-description: 此页介绍了如何排查并解决登录机器人时出现的问题
+description: 此页介绍了如何排查并解决使用机器人时出现的问题
 ---
 
 # ❓ 常见问题
 
-### 解决无法正常登录机器人
+### 解决无法正常使用机器人
 
-请先参照此页面排查问题所在：[https://mirai.mamoe.net/topic/223/](https://mirai.mamoe.net/topic/223/)
+排查登录问题：[无法登录的临时处理方案（MiraiForum）](https://mirai.mamoe.net/topic/223/)
+
+排查使用问题：[常见问题 Q & A（MiraiForum）](https://mirai.mamoe.net/topic/71)
 
 以下是已知问题的解决方案，可供参考：
 
 * [解决“Mirai 无法完成滑块验证……”的问题](https://github.com/DreamVoid/MiraiMC/issues/3)
 * [登录时提示“当前版本过低，请升级到QQ最新版本。”](https://github.com/DreamVoid/MiraiMC/issues/17)
+
+### 在服务端发送私聊/群消息，私聊/群里没收到
+
+机器人账号被腾讯风控。解决办法就是挂两三天，中间不要发任何信息或者偶尔发一点正常聊天信息。
 
 ### **为什么会出现这样或那样的报错？**
 
@@ -30,5 +36,3 @@ description: 此页介绍了如何排查并解决登录机器人时出现的问�
 ### **我看其他同类机器人插件都说Linux不能登录，让我去下载这个或那个软件，我要怎么用你这个插件？**
 
 MiraiMC已经完全重写登录验证流程，不会存在其他不完善插件的问题。当你登录机器人账号时，插件会引导你完成登录验证。请放心在Linux等无图形界面的系统环境使用。
-
-\
