@@ -26,9 +26,8 @@ MiraiMC提供了一个Maven开发模板帮助你开发一个新的插件，只�
 </dependency>
 ```
 
-{% hint style="info" %}
-确保version为GitHub上的最新版本，使用较旧的版本可能不兼容最新版本的插件
-{% endhint %}
+> [!NOTE|style:flat]
+> 确保version为GitHub上的最新版本，使用较旧的版本可能不兼容最新版本的插件
 
 添加完成后，你的`pom.xml`文件看起来像这样：
 
