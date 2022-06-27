@@ -19,7 +19,7 @@
 	],
 	"pluginsConfig": {
 		"editlink": {
-			"base": "https://github.com/MiraiMC/MiraiMC-Wiki/tree/main",
+			"base": "https://github.com/MiraiMC/MiraiMC-Wiki/tree/gitbook",
 			"label": "编辑此页"
 		},	
 		"page-footer-ex": {
