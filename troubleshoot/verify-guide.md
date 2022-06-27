@@ -6,15 +6,14 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 
 ## 文字验证码 <a href="#word-captcha" id="word-captcha"></a>
 
-{% hint style="info" %}
-由于文字验证码**大概率**会被腾讯拒绝，Mirai核心及MiraiMC可能将在未来的版本中**移除**此验证。
-{% endhint %}
-
-{% hint style="success" %}
-从MiraiMC 1.5版本起，新登录的机器人默认验证方式已变为滑块验证码。
-{% endhint %}
+> [!DANGER|style:flat]
+> 由于文字验证码**大概率**会被腾讯拒绝，Mirai核心及MiraiMC可能将在未来的版本中**移除**此验证。
 
 经过多次测试，使用文字验证码登录机器人时会直接拒绝登录（“当前版本过低，请升级到QQ最新版本。”），此部分指南已移除。
+
+> [!NOTE|style:flat]
+> 从MiraiMC 1.5版本起，新登录的机器人默认验证方式已变为滑块验证码。
+
 
 ## 滑块验证码 <a href="#slide-captcha" id="slide-captcha"></a>
 
@@ -38,15 +37,13 @@ description: 此页介绍了如何完成验证码和设备锁的验证
    ![ticket (1)](https://user-images.githubusercontent.com/45266046/135317326-7335c700-80b7-4bbd-a087-e4195d9d91b1.png)
 4. **回到控制台**，运行命令`/miraiverify slidercaptcha 10000 <ticket>`，将相应的值填入，完成验证。（其中10000为机器人QQ号）
 
-{% hint style="success" %}
-如果你觉得打开开发者工具太麻烦，也可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me)
-{% endhint %}
+> [!TIP|style:flat]
+> 如果你觉得打开开发者工具太麻烦，也可以使用这个：[https://txhelper.glitch.me/](https://txhelper.glitch.me)
 
 ## 设备锁 <a href="#device-locker" id="device-locker"></a>
 
-{% hint style="info" %}
-一种更快捷的方式是**直接关闭设备锁**，但这会大大增加账号被盗取和被腾讯冻结的概率。
-{% endhint %}
+> [!TIP|style:flat]
+> 一种更快捷的方式是**直接关闭设备锁**，但这会大大增加账号被盗取和被腾讯冻结的概率。
 
 当需要验证设备锁时，通常会看到诸如此类的警告消息（其中10000为机器人QQ号）：
 

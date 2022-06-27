@@ -11,9 +11,8 @@ description: 此页介绍了作为服主如何使用MiraiMC插件
 * 始终从[Github](https://github.com/DreamVoid/MiraiMC/releases)、[Gitee](https://gitee.com/dreamvoid/MiraiMC/releases)等作者信任的位置下载插件，未知来源的插件可能会盗取你的账号
 * 始终使用最新的版本，较旧的版本可能包含一些遗留的问题
 
-{% hint style="info" %}
-作者不对第三方来源的插件和非最新版的插件负责
-{% endhint %}
+> [!WARNING|style:flat] 
+> **作者不对第三方来源的插件和非最新版的插件负责**
 
 请按照下面的步骤安装插件：
 
@@ -36,9 +35,8 @@ MiraiMC 插件通常开箱即用且不需要额外的配置。但如果你已经
 * 描述：Mirai的工作目录，有关Mirai机器人的数据都会存放在这个文件夹。如果此项为default，则目录为/plugins/MiraiMC/MiraiBot
 * 建议值：如果你已在使用Mirai机器人，请将此项改为Mirai机器人的根目录
 
-{% hint style="info" %}
-通常，Mirai机器人的根目录中包含bots、config、plugins等文件夹
-{% endhint %}
+> [!TIP|style:flat]
+> 通常，Mirai机器人的根目录中包含bots、config、plugins等文件夹
 
 #### `bot.log-events`
 
