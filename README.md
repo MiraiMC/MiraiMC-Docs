@@ -14,4 +14,4 @@ description: MiraiMC 帮助手册
 
 * [Github](https://github.com/DreamVoid/MiraiMC)
 * [MCBBS 插件页](https://www.mcbbs.net/thread-1207462-1-1.html)
-* [Javadoc 开发文档](https://docs.miraimc.dreamvoid.ml)
+* [Javadoc 开发文档](https://jd.miraimc.dreamvoid.me)
