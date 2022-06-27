@@ -1,36 +1,36 @@
 {
 	"title": "MiraiMC 帮助手册",
-    "author" : "DreamVoid",
-    "description" : "MiraiMC 帮助手册",
-    "language" : "zh-hans",
-    "plugins" : [
+	"author": "DreamVoid",
+	"description": "MiraiMC 帮助手册",
+	"language": "zh-hans",
+	"plugins": [
 		"-highlight",
-		"-lunr", 
-		"-search", 
-        "-sharing",
-        "-font-settings",
+		"-lunr",
+		"-search",
+		"-sharing",
+		"-font-settings",
 		"search-pro",
 		"expandable-chapters",
 		"editlink",
 		"code",
 		"page-footer-ex",
-        "flexible-alerts",
-        "github"
+		"flexible-alerts",
+		"github"
 	],
 	"pluginsConfig": {
 		"editlink": {
 			"base": "https://github.com/MiraiMC/MiraiMC-Wiki/tree/gitbook",
 			"label": "编辑此页"
-		},	
-		"page-footer-ex": {
-            "copyright": "[DreamVoid](https://github.com/DreamVoid) 和 [MiraiMC](https://github.com/MiraiMC)，使用[知识共享 署名-非商业性使用-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)发布",
-            "markdown": true,
-            "update_label": "<i>最后更新时间：</i>",
-            "update_format": "YYYY-MM-DD HH:mm:ss"
 		},
-        "github": {
-            "url": "https://github.com/DreamVoid/MiraiMC"
-        }
+		"page-footer-ex": {
+			"copyright": "[DreamVoid](https://github.com/DreamVoid) 和 [MiraiMC](https://github.com/MiraiMC)，使用[知识共享 署名-非商业性使用-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)发布",
+			"markdown": true,
+			"update_label": "<i>最后更新时间：</i>",
+			"update_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"github": {
+			"url": "https://github.com/DreamVoid/MiraiMC"
+		}
 	},
-	"ignores" : ["_book", "node_modules"]
+	"ignores": ["_book", "node_modules"]
 }
