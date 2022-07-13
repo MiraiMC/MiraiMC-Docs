@@ -1,4 +1,4 @@
-# Catserver
+# CatServer
 
 ## 描述 <a href="#description" id="description"></a>
 
@@ -9,4 +9,4 @@
 ## 对用户的建议 <a href="#howtosolve" id="howtosolve"></a>
 
 * 更换其他服务端或抛弃 CatServer
-* 等待 MiraiMC 1.6 版本，此版本将可以连接到外部 mirai console 程序
+* 使用 MiraiMC 1.6 以上版本，1.6以上版本将可以连接到外部 mirai console 程序
