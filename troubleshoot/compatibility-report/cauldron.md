@@ -40,7 +40,7 @@ Caused by: java.lang.NoSuchMethodError: kotlin.jvm.internal.MutablePropertyRefer
 ## 对用户的建议 <a id="howtosolve"></a>
 
 * 更换其他服务端或抛弃1.7.10
-* 等待MiraiMC 1.6版本，此版本将可以连接到外部mirai console程序
+* 使用 MiraiMC 1.6 以上版本，1.6以上版本将可以连接到外部 mirai console 程序
 
 ## 处理措施 <a id="measures"></a>
 
