@@ -43,6 +43,7 @@
   * 默认值：`false`
   * 描述：启用 HTTP API 功能，允许添加 HTTP API 模式下的机器人。
   * 建议值：如果需要通过 mirai-api-http 连接到 MCL 等第三方 mirai 机器人，请设为 `true`，否则保持为 `false`
+  * **ℹ提示：** 要了解如何使用 HTTP API 功能，请[点击这里](tutorial/http-api.md)
 
 #### `bot`
 
@@ -121,7 +122,7 @@
       * 默认值：`5`
       * 描述：池中至少要有多少空闲连接。当空闲连接小于 `minimumIdle`，总连接小于 `maximumPoolSize` 时，将新增连接，HikariCP 默认等于 `maximumPoolSize`。
 
-#### `httpapi`
+#### `http-api`
 
 **控制 HTTP API 连接信息**
 

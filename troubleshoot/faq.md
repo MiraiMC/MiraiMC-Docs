@@ -27,7 +27,9 @@ description: 此页介绍了如何排查并解决使用机器人时出现的问�
 
 ### 为什么我开的Issue/Pull Request被直接关闭了？
 
-你没有按照要求开Issue，我不会花费时间去理解不按模板提交的issue；你的Issue在之前已经有人提过了，为了处理效率不接受两个相同问题的Issue；你在Gitee等其他Git平台提交了PR，除了Github外，所有Git平台都是Github的镜像，都从Github拉取代码，因此不接受其他Git平台的PR。
+1. 你没有按照要求开Issue，我不会花费时间去理解不按模板提交的issue；
+2. 你的Issue在之前已经有人提过了，为了处理效率不接受两个相同问题的Issue；
+3. 你在Gitee等其他Git平台提交了PR，除了Github外，所有Git平台都是Github的镜像，都从Github拉取代码，因此不接受其他Git平台的PR。
 
 ### 为什么出现报错“JCE cannot authenticate the provider BC”
 
