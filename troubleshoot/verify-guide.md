@@ -42,8 +42,8 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 
 ## 设备锁 <a href="#device-locker" id="device-locker"></a>
 
-> [!TIP|style:flat]
-> 一种更快捷的方式是**直接关闭设备锁**，但这会大大增加账号被盗取和被腾讯冻结的概率。
+> [!NOTE|style:flat]
+> 从 mirai 2.13.3 版本起，“设备锁”已变更为“设备验证”。
 
 当需要验证设备锁时，通常会看到诸如此类的警告消息（其中10000为机器人QQ号）：
 
@@ -69,3 +69,41 @@ description: 此页介绍了如何完成验证码和设备锁的验证
    ![QR](https://user-images.githubusercontent.com/45266046/135317365-fc2d05a3-2a0c-4d76-ae3b-75584be6622a.jpg)
 4. 在手机上，使用QQ的扫一扫功能扫码，并确认验证；
 5. 回到控制台，此时运行命令`/miraiverify unsafedevice 10000`，完成验证。（其中10000为机器人QQ号）
+
+## 设备验证 <a href="#device-verify" id="device-verify"></a>
+
+当需要进行设备验证时，通常会看到诸如此类的警告消息（其中10000为机器人QQ号）：
+
+```
+[12:34:56 WARN]: [MiraiMC] 当前登录的QQ（10000）需要完成设备验证
+[12:34:56 WARN]: [MiraiMC] 短信验证方式可用
+[12:34:56 WARN]: [MiraiMC] 其他验证方式可用
+[12:34:56 WARN]: [MiraiMC] 如需使用短信验证方式，请输入指令 /miraiverify deviceverify 10000 sms
+[12:34:56 WARN]: [MiraiMC] 如需使用其他验证方式，请输入指令 /miraiverify deviceverify 10000 fallback
+[12:34:56 WARN]: [MiraiMC] 如需取消登录，请输入指令 /miraiverify cancel 10000
+[12:34:56 WARN]: [MiraiMC] 如需帮助，请参阅: https://docs.miraimc.dreamvoid.me/troubleshoot/verify-guide#device-verify
+```
+
+* 如果选择短信验证方式，运行命令 `/miraiverify deviceverify 10000 sms`，稍后将会收到一条验证码短信，同时控制台将会出现以下警告消息：
+
+   ```
+   [12:34:56 WARN]: [MiraiMC] 当前登录的QQ（10000）将使用短信验证码验证
+   [12:34:56 WARN]: [MiraiMC] 一条包含验证码的短信将会发送到地区代码为888、号码为1234567890的手机上
+   [12:34:56 WARN]: [MiraiMC] 收到验证码后，请输入指令 /miraiverify deviceverify 10000 <验证码>
+   [12:34:56 WARN]: [MiraiMC] 如需取消登录，请输入指令 /miraiverify cancel 10000，取消登录后需要等待至少1分钟才能重新登录
+   ```
+
+   收到包含验证码的短信后，运行命令 `/miraiverify deviceverify 10000 <验证码>`，完成验证。
+
+* 如果选择其他验证方式，运行命令 `/miraiverify deviceverify 10000 fallback`，控制台将会出现以下警告信息：
+
+   ```
+   [12:34:56 WARN]: [MiraiMC] 当前登录的QQ（10000）将使用其他验证方式
+   [12:34:56 WARN]: [MiraiMC] 请打开以下链接进行验证
+   [12:34:56 WARN]: [MiraiMC] https://this.is.link/part
+   [12:34:56 WARN]: [MiraiMC] 验证完成后，请输入指令 /miraiverify deviceverify 10000
+   [12:34:56 WARN]: [MiraiMC] 如需取消登录，请输入指令 /miraiverify cancel 10000
+   ```
+
+   使用浏览器（尽量使用QQ浏览器内核，如使用手机QQ）打开验证链接（上方例子为`https://this.is.link/part`），按照页面提示完成验证后，运行命令 `/miraiverify deviceverify 10000`，完成验证。
+   
