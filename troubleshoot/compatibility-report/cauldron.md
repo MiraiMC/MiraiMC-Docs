@@ -2,9 +2,9 @@
 
 ## 描述 <a id="description"></a>
 
-有用户反馈，在使用Uranium等基于Cauldron下游服务端时出现报错。
+有用户反馈，在使用 Uranium 等基于 Cauldron 下游服务端时出现报错。
 
-经过测试，确认是由Cauldron内部逻辑导致Mirai的Kotlin库无法正常加载。其报错内容大致如下：
+经过测试，确认是由 Cauldron 内部逻辑导致 Mirai 的 Kotlin 库无法正常加载。其报错内容大致如下：
 
 ```text
 [12:34:56 INFO]: [MiraiMC] 登录新的机器人账号: [private], 协议: ANDROID_PHONE

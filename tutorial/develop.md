@@ -1,35 +1,35 @@
 ---
-description: 此页介绍了作为插件开发者如何使用MiraiMC的API
+description: 此页介绍了作为插件开发者如何使用 MiraiMC 的 API
 ---
 
 # 🧐 基于本插件开发（插件开发者）
 
-MiraiMC提供了一个Maven开发模板帮助你开发一个新的插件，只需要[点击这里](https://github.com/DreamVoid/MiraiMC-Template)即可使用这个模板
+MiraiMC 提供了一个 Maven 开发模板帮助你开发一个新的插件，只需要[点击这里](https://github.com/MiraiMC/MiraiMC-Template)即可使用这个模板
 
-你也可以按照下面的步骤为你已开发的插件添加MiraiMC支持
+你也可以按照下面的步骤为你已开发的插件添加 MiraiMC 支持
 
 ## 准备工作
 
-在使用MiraiMC提供的任何API之前，你需要先将MiraiMC导入你的项目
+在使用 MiraiMC 提供的任何 API 之前，你需要先将 MiraiMC 导入你的项目
 
-### 使用Maven导入库文件
+### 使用 Maven 导入库文件
 
-要使用Maven导入你的项目，只需要将以下内容添加到项目`pom.xml`文件：
+要使用 Maven 导入你的项目，只需要将以下内容添加到项目 `pom.xml` 文件：
 
 ```markup
 <dependency>
     <groupId>io.github.dreamvoid</groupId>
     <artifactId>MiraiMC-Integration</artifactId>
     <!--请确保版本为Github上的最新版本-->
-    <version>1.5</version>
+    <version>1.7</version>
     <scope>provided</scope>
 </dependency>
 ```
 
 > [!NOTE|style:flat]
-> 确保version为GitHub上的最新版本，使用较旧的版本可能不兼容最新版本的插件
+> 确保 `version` 为 GitHub 上的最新版本，使用较旧的版本可能不兼容最新版本的插件
 
-添加完成后，你的`pom.xml`文件看起来像这样：
+添加完成后，你的 `pom.xml` 文件看起来像这样：
 
 ```markup
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,9 +66,9 @@ MiraiMC提供了一个Maven开发模板帮助你开发一个新的插件，只�
 </project>
 ```
 
-### 在plugin.yml声明依赖
+### 在 plugin.yml 声明依赖
 
-之后，你需要在`plugin.yml`文件将MiraiMC添加到插件依赖
+之后，你需要在 `plugin.yml` 文件将 MiraiMC 添加到插件依赖
 
 #### 示例（依赖）
 
@@ -79,7 +79,7 @@ version: 1.0
 author: that is you.
 api-version: 1.16
 
-# 如果你的插件的所有功能都需要基于MiraiMC实现，请使用depend
+# 如果你的插件的所有功能都需要基于 MiraiMC 实现，请使用 depend
 depend: [MiraiMC]
 ```
 
@@ -92,15 +92,15 @@ version: 1.0
 author: that is you.
 api-version: 1.16
 
-# 如果你的插件使用MiraiMC是为了润色插件功能并且可有可无，请使用softdepend
+# 如果你的插件使用 MiraiMC 是为了润色插件功能并且可有可无，请使用 softdepend
 softdepend: [MiraiMC]
 ```
 
 ## 编写代码
 
-如果你不知道从何下手，可以先看看[开发模板](https://github.com/DreamVoid/MiraiMC-Template)，此[开发模板](https://github.com/DreamVoid/MiraiMC-Template)使用了两个EventHandler来简单明了的调用MiraiMC
+如果你不知道从何下手，可以先看看[开发模板](https://github.com/MiraiMC/MiraiMC-Template)，此开发模板使用了两个 EventHandler 来简单明了的调用 MiraiMC
 
-作为刚开始使用MiraiMC的开发者，我非常建议你从监听一个事件开始。监听一个MiraiMC事件就和监听一个Bukkit事件一样简单，如下代码就是当机器人接收到好友消息时向好友发送好友发送的信息
+作为刚开始使用 MiraiMC 的开发者，我非常建议你从监听一个事件开始。监听一个 MiraiMC 事件就和监听一个 Bukkit 事件一样简单，如下代码就是当机器人接收到好友消息时向好友发送好友发送的信息
 
 > 有点绕口，对吗？你可以这样读：当机器人 接收到 好友消息 时 向好友 发送 好友发送的 消息
 

@@ -12,11 +12,11 @@
 
 * `allow-bStats`
   * 默认值：`true`
-  * 描述：允许插件使用bStats记录插件使用情况
+  * 描述：允许插件使用 bStats 记录插件使用情况
   * 建议值：`true`
 * `check-update`
   * 默认值：`true`
-  * 描述：允许插件从Github API检查最新版本
+  * 描述：允许插件从 MiraiMC API 检查最新版本
   * 建议值：`true`
 * `disable-safe-warning-message`
   * 默认值：`false`
@@ -24,30 +24,35 @@
   * 建议值：`true`/`false`
 * `mirai-working-dir`
   * 默认值：`default`
-  * 描述：Mirai的工作目录，有关Mirai机器人的数据都会存放在这个文件夹。如果此项为default，则目录为 `/plugins/MiraiMC/MiraiBot`
-  * 建议值：如果你已在使用Mirai机器人，请将此项改为Mirai机器人的根目录
-  * **ℹ提示：** 通常，Mirai机器人的根目录中包含`bots`、`config`、`plugins`等文件夹
+  * 描述：Mirai 的工作目录，有关 Mirai 机器人的数据都会存放在这个文件夹。如果此项为 default，则目录为 `/plugins/MiraiMC/MiraiBot`
+  * 建议值：如果你已在使用 Mirai 机器人，请将此项改为 Mirai 机器人的根目录
+  * **ℹ提示：** 通常，Mirai 机器人的根目录中包含 `bots`、`config`、`plugins` 等文件夹
 * `add-properties`
   * 默认值：`true`
-  * 描述：自动添加各类mirai必要参数
+  * 描述：自动添加各类 mirai 必要参数
   * 建议值：`true`
 * `mirai-core-version`
-  * 默认值：`latest`
-  * 描述： 使用的 mirai 核心版本，如果不存在将自动下载。设为`latest`则使用最新版本。
-  * 建议值：`latest`
+  * 默认值：`stable`
+  * 描述： 使用的 mirai 核心版本，如果不存在将自动下载。设为 `latest` 则使用最新版本，设为 `stable` 则使用作者测试后的稳定版本。
+  * 建议值：`stable`
 * `maven-repo-url`
   * 默认值：`http://maven.aliyun.com/nexus/content/groups/public/`
   * 描述： Maven 仓库地址。用于下载 Mirai 核心等依赖。
-  * 建议值：国外用户可使用 maven 中央仓库地址`https://repo1.maven.org/maven2/`，国内用户可使用镜像站
+  * 建议值：国外用户可使用 maven 中央仓库地址 `https://repo1.maven.org/maven2/`，国内用户可使用镜像站。
 * `enable-http-api`
   * 默认值：`false`
-  * 描述：启用 HTTP API 功能，允许添加 HTTP API 模式下的机器人。
+  * 描述：启用 HTTP-API 功能，允许添加 HTTP-API 模式下的机器人。
   * 建议值：如果需要通过 mirai-api-http 连接到 MCL 等第三方 mirai 机器人，请设为 `true`，否则保持为 `false`
-  * **ℹ提示：** 要了解如何使用 HTTP API 功能，请[点击这里](/tutorial/http-api.md)
+  * **ℹ提示：** 要了解如何使用 HTTP-API 功能，请[点击这里](/tutorial/http-api.md)
 * `legacy-event-support`
   * 默认值：`false`
-  * 描述：支持旧版（1.6-）事件
-  * 建议值：如果使用了依赖旧版本MiraiMC的插件，请设为 `true` 以让这些插件正常工作，否则保持为 `false`
+  * 描述：支持旧版（MiraiMC 1.6-）事件
+  * 建议值：如果使用了依赖旧版本 MiraiMC 的插件，请设为 `true` 以让这些插件正常工作，否则保持为 `false`
+  * **⚠提示：** 此项将在未来的版本中移除。
+* `auto-open-qrcode-file`
+  * 默认值：`false`
+  * 描述：允许自动运行命令行 `explorer 图片路径` 通过系统方式打开二维码登录图片。（仅 Windows）
+  * 建议值：如果能够保证系统安全性，不担心恶意程序通过此功能执行任意代码，可设为 `true`，否则请保持 `false`
 
 #### `bot`
 
@@ -56,25 +61,25 @@
 * `disable-network-logs`
   * 默认值：`false`
   * 描述：关闭机器人的网络日志输出
-  * 建议值：如果你需要登录很多机器人，且这些机器人没有登录问题，请将此项设为true避免刷屏。不建议开发者设为true。
+  * 建议值：如果你需要登录很多机器人，且这些机器人没有登录问题，请将此项设为 `true` 避免刷屏。不建议开发者设为 `true`。
 * `disable-bot-logs`
   * 默认值：`false`
   * 描述：关闭机器人的日志
-  * 建议值：如果你有很多机器人，请将此项设为true避免后台刷屏。不建议开发者设为true。
-* `use-bukkit-logger` <br> **此部分控制 Mirai Core 是否使用 Minecraft 服务端日志系统**
+  * 建议值：如果你有很多机器人，请将此项设为 `true` 避免后台刷屏。不建议开发者设为 `true`。
+* `use-minecraft-logger` <br> **此部分控制 Mirai Core 是否使用 Minecraft 服务端日志系统**
   * `bot-logs`
     * 默认值：`true`
-    * 描述：使用Bukkit的日志系统接管机器人日志
+    * 描述：使用 Minecraft 的日志系统接管机器人日志
     * 建议值：`true`
   * `network-logs`
     * 默认值：`true`
-    * 描述：使用Bukkit的日志系统接管机器网络人日志
+    * 描述：使用 Minecraft 的日志系统接管机器网络人日志
     * 建议值：`true`
 * `log-events`
   * 默认值：`true`
   * 描述：向后台输出机器人日志
-  * 建议值：如果你有很多机器人并且这些机器人有很多的群和好友，请将此项设为`false`避免后台刷屏
-  * **ℹ提示：** 与`bot.disable-bot-logs`不同，此项控制的是插件以事件监听的形式记录日志<br>此项将在之后的版本中移动到`general`父项
+  * 建议值：如果你有很多机器人并且这些机器人有很多的群和好友，请将此项设为 `false` 避免后台刷屏
+  * **ℹ提示：** 与 `bot.disable-bot-logs` 不同，此项控制的是插件以事件监听的形式记录日志<br>此项将在之后的版本中移动到 `general` 父项
 * `contact-cache` <br> **此部分控制 Mirai 机器人的缓存机制，不建议普通用户修改**
   * `enable-friend-list-cache`
     * 默认值：`false`
@@ -128,10 +133,10 @@
 
 #### `http-api`
 
-**控制 HTTP API 连接信息**
+**控制 HTTP-API 连接信息**
 
 * `url`
-  * 描述：HTTP API 服务器连接地址
+  * 描述：HTTP-API 服务器连接地址
 * `message-fetch` <br> **此部分控制插件向第三方 Mirai 机器人获取信息的配置**
   * `interval`
     * 默认值：`10`
