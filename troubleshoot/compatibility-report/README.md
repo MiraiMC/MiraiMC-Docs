@@ -14,9 +14,9 @@
     * Uranium
     * Thermos
     * Contigo
-    * Mohist（[链接](https://github.com/DreamVoid/MiraiMC/issues/46)）
-    * CatServer
-      * LoliServer
+  * Mohist（[链接](https://github.com/DreamVoid/MiraiMC/issues/46)）
+  * CatServer
+    * LoliServer
 
 ## 不兼容的插件 <a href="#plugin" id="plugin"></a>
 

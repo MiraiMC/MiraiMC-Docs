@@ -1,10 +1,12 @@
 # Summary
 
 * [😉 主页](README.md)
-* [🔧 教程](tutorial/download-and-use.md)
-  * [😎 安装并使用插件（服主）](tutorial/download-and-use.md)
-  * [🧐 基于本插件开发（插件开发者）](tutorial/develop.md)
-  * [⚽ 使用 HTTP-API](tutorial/http-api.md)
+* [🔧 教程](tutorial/server-owner.md)
+  * [😎 安装并使用插件（服主）](tutorial/server-owner.md)
+  * [🧐 基于本插件开发（插件开发者）](tutorial/developer.md)
+  * [⚽ 使用 HTTP-API](tutorial/use-http-api.md)
+  * [🏁 使用扫码登录](tutorial/use-qrcode-login.md)
+  * [🔑 使用第三方签名服务](tutorial/use-encrypt-service.md)
 * [📖 资料](docs/commands-and-permissions.md)
   * [🔠 命令和权限](docs/commands-and-permissions.md)
   * [🛠 配置文件](docs/configure-file.md)
@@ -13,4 +15,3 @@
   * [😶 登录验证指南](troubleshoot/verify-guide.md)
   * [😣 兼容性报告](troubleshoot/compatibility-report/README.md)
     * [Cauldron](troubleshoot/compatibility-report/cauldron.md)
-    * [CatServer](troubleshoot/compatibility-report/catserver.md)

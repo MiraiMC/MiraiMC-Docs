@@ -21,7 +21,7 @@ MiraiMC 提供了一个 Maven 开发模板帮助你开发一个新的插件，�
     <groupId>io.github.dreamvoid</groupId>
     <artifactId>MiraiMC-Integration</artifactId>
     <!--请确保版本为Github上的最新版本-->
-    <version>1.7</version>
+    <version>1.8</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -59,7 +59,7 @@ MiraiMC 提供了一个 Maven 开发模板帮助你开发一个新的插件，�
             <groupId>io.github.dreamvoid</groupId>
             <artifactId>MiraiMC-Integration</artifactId>
             <!--请确保版本为Github上的最新版本-->
-            <version>1.5</version>
+            <version>1.8</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

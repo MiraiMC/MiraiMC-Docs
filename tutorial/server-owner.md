@@ -8,7 +8,7 @@ description: 此页介绍了作为服主如何使用 MiraiMC 插件
 
 安装插件之前，请注意以下事项
 
-* 始终从 [GitHub](https://github.com/DreamVoid/MiraiMC/releases)、[Gitee](https://gitee.com/dreamvoid/MiraiMC/releases) 等作者信任的位置下载插件，未知来源的插件可能会盗取你的账号
+* 始终从 [GitHub](https://github.com/DreamVoid/MiraiMC/releases) 等作者信任的位置下载插件，未知来源的插件可能会盗取你的账号
 * 始终使用最新的版本，较旧的版本可能包含一些遗留的问题
 
 > [!WARNING|style:flat] 
@@ -18,7 +18,7 @@ description: 此页介绍了作为服主如何使用 MiraiMC 插件
 
 1. 下载插件，并将插件文件放入 plugins 文件夹
 2. 下载基于 MiraiMC 开发的其他插件（如果有的话），并将这些插件放入 plugins 文件夹
-3. 启动服务端（如果尚未启动）或使用诸如 PlugMan 的插件加载插件
+3. 启动服务端（如果尚未启动）
 4. 使用指令“**/mirai login <账号> <密码>**”登录你的机器人账号
 5. 如果你同时使用了基于 MiraiMC 开发的插件，请在这些插件的配置文件中调整有关 MiraiMC 的配置
 6. 享受优雅的 QQ 机器人服务！

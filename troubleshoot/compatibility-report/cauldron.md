@@ -41,18 +41,3 @@ Caused by: java.lang.NoSuchMethodError: kotlin.jvm.internal.MutablePropertyRefer
 
 * 更换其他服务端或抛弃1.7.10
 * 使用 MiraiMC 1.6 以上版本，1.6以上版本将可以连接到外部 mirai console 程序
-
-## 处理措施 <a id="measures"></a>
-
-启动时检测到Cauldron相关文件向后台发送警告。
-
-```java
-if(new File("cauldron.yml").exists()){
-    getLogger().severe("MiraiMC不支持Cauldron及任何下游服务端，请更换其他服务端使用！（如果你并没有在使用，请删除服务端根目录下的cauldron.yml文件）");
-    getLogger().severe("请不要反馈你遇到的任何问题，作者将永远不会解决！");
-}
-
-```
-
-
-
