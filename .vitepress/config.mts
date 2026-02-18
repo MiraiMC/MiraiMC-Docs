@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MiraiMC 帮助手册",
+  titleTemplate: 'MiraiMC 帮助手册 | :title',
   description: "有关使用 MiraiMC 的一切东西都在这里",
+  lang: 'zh-Hans',
   lastUpdated: true,
   sitemap: {
     hostname: 'https://docs.miraimc.dreamvoid.me'
