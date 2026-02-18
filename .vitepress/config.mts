@@ -31,8 +31,8 @@ export default defineConfig({
       {
         text: '资料',
         items: [
-          { text: '命令和权限', link: '/docs/commands-and-permissions' },
-          { text: '配置文件', link: '/docs/configure-file' }
+          { text: '命令和权限', link: '/archive/commands-and-permissions' },
+          { text: '配置文件', link: '/archive/configure-file' }
         ],
       },
       {
