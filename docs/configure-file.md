@@ -39,11 +39,6 @@
   * 默认值：`https://repo.huaweicloud.com/repository/maven/`
   * 描述： Maven 仓库地址。用于下载 Mirai 核心等依赖。
   * 建议值：国外用户可使用 maven 中央仓库地址 `https://repo1.maven.org/maven2/`，国内用户可使用镜像站。
-* `enable-http-api`
-  * 默认值：`false`
-  * 描述：启用 HTTP-API 功能，允许添加 HTTP-API 模式下的机器人。
-  * 建议值：如果需要通过 mirai-api-http 连接到 MCL 等第三方 mirai 机器人，请设为 `true`，否则保持为 `false`
-  * **ℹ提示：** 要了解如何使用 HTTP-API 功能，请[点击这里](/tutorial/use-http-api.md)<br>此项将在未来移动到 `http-api` 父项。
 * `auto-open-qrcode-file`
   * 默认值：`false`
   * 描述：允许自动运行命令行 `explorer 图片路径` 通过系统方式打开二维码登录图片。（仅 Windows）
@@ -142,19 +137,3 @@
   * `minimumIdle`
     * 默认值：`5`
     * 描述：池中至少要有多少空闲连接。当空闲连接小于 `minimumIdle`，总连接小于 `maximumPoolSize` 时，将新增连接，HikariCP 默认等于 `maximumPoolSize`。
-
-#### `http-api`
-
-**控制 HTTP-API 连接信息**
-
-* `url`
-  * 描述：HTTP-API 服务器连接地址
-* `message-fetch` <br> **此部分控制插件向第三方 Mirai 机器人获取信息的配置**
-  * `interval`
-    * 默认值：`10`
-    * 描述：获取机器人消息的间隔，单位：tick（0.05秒）
-    * 建议值：`10`
-  * `count`
-    * 默认值：`10`
-    * 描述：单次获取的消息数量，不要过大或过小。
-    * 建议值：`10`
