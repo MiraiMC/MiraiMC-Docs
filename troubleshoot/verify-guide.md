@@ -28,7 +28,7 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 [12:34:56 WARN]: [MiraiMC] https://this.is.link/part
 [12:34:56 WARN]: [MiraiMC] 验证完成后，请输入指令 /miraiverify slidercaptcha 10000 <ticket>
 [12:34:56 WARN]: [MiraiMC] 如需取消登录，请输入指令 /miraiverify slidercaptchacancel 10000
-[12:34:56 WARN]: [MiraiMC] 如需帮助，请参阅: https://wiki.miraimc.dreamvoid.ml/troubleshoot/verify-guide#slide-captcha
+[12:34:56 WARN]: [MiraiMC] 如需帮助，请参阅: https://docs.miraimc.dreamvoid.me/troubleshoot/verify-guide#slide-captcha
 ```
 
 请按照以下步骤进行验证：
@@ -55,7 +55,7 @@ description: 此页介绍了如何完成验证码和设备锁的验证
 [12:34:56 WARN]: [MiraiMC] https://this.is.link/part
 [12:34:56 WARN]: [MiraiMC] 验证完成后，请输入指令 /miraiverify unsafedevice 10000
 [12:34:56 WARN]: [MiraiMC] 如需取消登录，请输入指令 /miraiverify unsafedevicecancel 10000
-[12:34:56 WARN]: [MiraiMC] 如需帮助，请参阅: https://wiki.miraimc.dreamvoid.ml/troubleshoot/verify-guide#device-locker
+[12:34:56 WARN]: [MiraiMC] 如需帮助，请参阅: https://docs.miraimc.dreamvoid.me/troubleshoot/verify-guide#device-locker
 ```
 
 请准备好所需的物品准备验证：
