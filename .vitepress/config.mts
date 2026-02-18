@@ -7,6 +7,7 @@ export default defineConfig({
   description: "有关使用 MiraiMC 的一切东西都在这里",
   lang: 'zh-Hans',
   lastUpdated: true,
+  cleanUrls: true,
   sitemap: {
     hostname: 'https://docs.miraimc.dreamvoid.me'
   },
