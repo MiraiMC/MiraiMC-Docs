@@ -55,4 +55,4 @@ MiraiMC 插件通常开箱即用且不需要额外的配置。但如果你已经
 
 ## 你是开发者？
 
-了解如何[基于本插件开发](developerment.md)，[Javadoc](https://jd.miraimc.dreamvoid.me/) 也有一定帮助。
+了解如何[基于本插件开发](development.md)，[Javadoc](https://jd.miraimc.dreamvoid.me/) 也有一定帮助。
