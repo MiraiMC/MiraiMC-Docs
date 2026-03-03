@@ -1,5 +1,7 @@
 ---
-description: 欢迎来到 MiraiMC 帮助手册，有关使用 MiraiMC 的一切东西都在这里。
+title: 欢迎来到 MiraiMC
+titleTemplate: false
+description: 这里是 MiraiMC 帮助手册，有关使用 MiraiMC 的一切东西都在这里。
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
