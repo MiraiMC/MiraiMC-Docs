@@ -1,3 +1,7 @@
+---
+description: 此页介绍如何使用 MiraiMC 的扫码登录功能
+---
+
 # 使用扫码登录 <Badge type="tip" text="^1.8" />
 MiraiMC 版本 1.8 开始支持 mirai 2.15.0 的扫码登录新特性，下面的内容将指导你正确使用扫码登录功能。
 

@@ -1,5 +1,5 @@
 ---
-description: 此页介绍了作为插件开发者如何使用 MiraiMC 的 API
+description: 此页介绍作为插件开发者如何使用 MiraiMC 的 API
 ---
 
 # 基于本插件开发（插件开发者）

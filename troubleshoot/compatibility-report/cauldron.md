@@ -1,3 +1,7 @@
+---
+description: 此页介绍为什么 MiraiMC 不兼容名为“Cauldron”的服务端软件
+---
+
 # Cauldron
 
 ## 描述 <a id="description"></a>

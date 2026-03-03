@@ -1,4 +1,5 @@
 ---
+description: 欢迎来到 MiraiMC 帮助手册，有关使用 MiraiMC 的一切东西都在这里。
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
@@ -8,8 +9,8 @@ hero:
   tagline: "有关使用 MiraiMC 的一切东西都在这里"
   actions:
     - theme: brand
-      text: 快速开始
-      link: /tutorial/server-start
+      text: 快速开始（服主）
+      link: /tutorial/server
     - theme: alt
       text: 从 Modrinth 下载
       link: https://modrinth.com/plugin/miraimc

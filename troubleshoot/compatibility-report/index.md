@@ -1,3 +1,7 @@
+---
+description: 此页介绍 MiraiMC 不兼容的服务端软件和插件
+---
+
 # 兼容性报告
 
 以下资源已确认不支持 MiraiMC 。

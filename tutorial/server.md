@@ -1,5 +1,5 @@
 ---
-description: 此页介绍了作为服主如何使用 MiraiMC 插件
+description: 此页介绍作为服主如何使用 MiraiMC 插件
 ---
 
 # 安装并使用插件（服主）
@@ -55,4 +55,4 @@ MiraiMC 插件通常开箱即用且不需要额外的配置。但如果你已经
 
 ## 你是开发者？
 
-了解如何[基于本插件开发](developer-start.md)，[Javadoc](https://jd.miraimc.dreamvoid.me/) 也有一定帮助。
+了解如何[基于本插件开发](developerment.md)，[Javadoc](https://jd.miraimc.dreamvoid.me/) 也有一定帮助。
