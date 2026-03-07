@@ -12,6 +12,16 @@ MiraiMC 提供了一个 Maven 开发模板帮助你开发一个新的插件，�
 
 在使用 MiraiMC 提供的任何 API 之前，你需要先将 MiraiMC 导入你的项目。
 
+### 我知道我想要什么，直接给我就行了！
+
+请自行确认版本是否为最新，构件名称是否符合开发需求。
+
+|  项   | 值  |
+| ----  | ----  |
+| groupId  | `io.github.dreamvoid` |
+| artifactId  | `MiraiMC-Integration` |
+| version  | `1.9` |
+
 ### 使用 Maven 导入库文件
 
 要使用 Maven 导入你的项目，只需要将以下内容添加到项目 `pom.xml` 文件：
