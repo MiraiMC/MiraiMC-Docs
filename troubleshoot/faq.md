@@ -61,7 +61,7 @@ description: 此页介绍了如何排查并解决使用 MiraiMC 机器人时出�
 
 但是，mirai 乃至整个机器人生态都在不断变化，有时你可能会需要[使用 Overflow](/advanced/use-overflow.md) 或第三方签名服务来满足你的需求，这种情况时有发生，因此最好做好使用外部程序的准备。
 
-不建议在面板服务商中使用 MiraiMC，如果有能力，最好购买专用服务器。如果你愿意，可以通过我的推广链接购买[腾讯云游戏服](https://curl.qcloud.com/cEDwIx5u)或[其他云服务器](https://curl.qcloud.com/rLeNPU94)。出于显而易见的原因，MiraiMC 可以通过腾讯云内网直接使用 mirai 机器人。
+不建议在面板服务商中使用 MiraiMC，如果有能力，最好购买专用服务器。如果你愿意，可以通过我的推广链接购买[腾讯云游戏服](https://curl.qcloud.com/cEDwIx5u)或[轻量应用服务器](https://curl.qcloud.com/rLeNPU94)运行 Minecraft 服务端。出于显而易见的原因，MiraiMC 可以通过腾讯云内网直接使用 mirai 机器人。
 
 ## 我想使用 NapCat 等 OneBot 服务，有办法吗？
 
