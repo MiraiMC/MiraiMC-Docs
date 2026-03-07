@@ -26,12 +26,18 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: '教程',
+                text: '开始使用',
                 items: [
                     { text: '安装并使用插件（服主）', link: '/tutorial/server' },
                     { text: '基于本插件开发（插件开发者）', link: '/tutorial/development' },
-                    { text: '使用扫码登录', link: '/tutorial/use-qrcode-login' }
                 ],
+            },
+            {
+                text: '进阶教程',
+                items: [
+                    { text: '使用扫码登录', link: '/advanced/use-qrcode-login' },
+                    { text: '使用 Overflow 核心', link: '/advanced/use-overflow' }
+                ]
             },
             {
                 text: '资料',

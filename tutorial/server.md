@@ -6,20 +6,25 @@ description: 此页介绍作为服主如何使用 MiraiMC 插件
 
 感谢你选择使用 MiraiMC 为你的服务器提供支持。希望 MiraiMC 能让你的 Minecraft 体验更进一步。
 
-## 安装插件
-
-安装插件之前，请注意以下事项
-
-* 始终从 [GitHub](https://github.com/DreamVoid/MiraiMC/releases) 等作者信任的位置下载插件，未知来源的插件可能会盗取你的账号
-* 始终使用最新的版本，较旧的版本可能包含一些遗留的问题
+## 下载
 
 ::: warning
+* 始终从下方列出的可信来源下载插件，未知来源的插件可能会盗取你的账号！
+* 始终使用最新的版本，较旧的版本可能包含一些遗留的问题。
 **作者不对第三方来源的插件和非最新版的插件负责**
 :::
 
+* 稳定版本
+  * [Modrinth](https://modrinth.com/plugin/miraimc/versions)
+  * [GitHub 发布页](https://github.com/DreamVoid/MiraiMC/releases)
+* 开发版本
+  * [GitHub Actions CI](https://github.com/DreamVoid/MiraiMC/actions/workflows/maven.yml?query=is%3Asuccess)
+
+## 安装插件
+
 请按照下面的步骤安装插件：
 
-1. 从 [Modrinth](https://modrinth.com/plugin/miraimc) 或 [GitHub Releases](https://github.com/DreamVoid/MiraiMC/releases) 下载插件，并将插件文件放入服务端目录的 `plugins` 文件夹。如果有其他基于 MiraiMC 开发的插件，也一并放入 `plugins` 文件夹。
+1. 从可信来源下载插件，并将插件文件放入服务端目录的 `plugins` 文件夹。如果有其他基于 MiraiMC 开发的插件，也一并放入 `plugins` 文件夹。
 2. 启动服务端（如果尚未启动）
 3. 使用指令 `/mirai login <账号> <密码>` 登录你的机器人账号
 4. 如果你同时使用了基于 MiraiMC 开发的插件，请在这些插件的配置文件中调整有关 MiraiMC 的配置
@@ -41,7 +46,7 @@ MiraiMC 插件通常开箱即用且不需要额外的配置。但如果你已经
 通常，mirai 机器人的根目录中包含 `bots`、`config`、`plugins` 等文件夹。
 :::
 
-#### `bot.log-events`
+#### `general.log-events`
 
 * 默认值：`default`
 * 描述：如果设为 `true`，插件将向后台输出机器人的日志
