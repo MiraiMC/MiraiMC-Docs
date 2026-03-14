@@ -33,7 +33,7 @@ description: 此页介绍了如何排查并解决使用 MiraiMC 机器人时出�
 
 ## 使用时控制台出现警告 `JCE cannot authenticate the provider BC`！
 
-请阅读[常见问题 Q & A   （MiraiForum）](https://mirai.mamoe.net/topic/71)给出的解决方案，如无效或者你无法理解解决方案，请确保你使用的是未被修改过的 Java。我推荐使用 [Azul Zulu](http://www.azul.com/downloads/)。
+请阅读[常见问题 Q & A（MiraiForum）](https://mirai.mamoe.net/topic/71)给出的解决方案，如无效或者你无法理解解决方案，请确保你使用的是未被修改过的 Java。我推荐使用 [Azul Zulu](http://www.azul.com/downloads/)。
 
 另外，有报告称出现此问题的用户使用了 OpenJ9，如果你正在使用，可尝试更换 Hotspot 版本。
 

@@ -28,8 +28,8 @@ description: 此页介绍 MiraiMC 的配置文件
   * 建议值：`true`/`false`
 * `mirai-working-dir`
   * 默认值：`default`
-  * 描述：Mirai 的工作目录，有关 Mirai 机器人的数据都会存放在这个文件夹。如果此项为 default，则目录为 `/plugins/MiraiMC/MiraiBot`
-  * 建议值：如果你已在使用 Mirai 机器人，请将此项改为 Mirai 机器人的根目录
+  * 描述：Mirai 的工作目录，有关 mirai 机器人的数据都会存放在这个文件夹。如果此项为 default，则目录为 `/plugins/MiraiMC/MiraiBot`
+  * 建议值：如果你已在使用 mirai 机器人，请将此项改为 mirai 机器人的根目录
   * **ℹ提示：** 通常，Mirai 机器人的根目录中包含 `bots`、`config`、`plugins` 等文件夹
 * `add-properties`
   * 默认值：`true`
@@ -41,7 +41,7 @@ description: 此页介绍 MiraiMC 的配置文件
   * 建议值：`stable`
 * `maven-repo-url`
   * 默认值：`https://repo.huaweicloud.com/repository/maven/`
-  * 描述： Maven 仓库地址。用于下载 Mirai 核心等依赖。
+  * 描述： Maven 仓库地址。用于下载 mirai 核心等依赖。
   * 建议值：国外用户可使用 maven 中央仓库地址 `https://repo1.maven.org/maven2/`，国内用户可使用镜像站。
 * `auto-open-qrcode-file`
   * 默认值：`false`
@@ -65,7 +65,7 @@ description: 此页介绍 MiraiMC 的配置文件
   * 默认值：`false`
   * 描述：关闭机器人的日志
   * 建议值：如果你有很多机器人，请将此项设为 `true` 避免后台刷屏。不建议开发者设为 `true`。
-* `use-minecraft-logger` <br> **此部分控制 Mirai Core 是否使用 Minecraft 服务端日志系统**
+* `use-minecraft-logger` <br> **此部分控制 mirai 是否使用 Minecraft 服务端日志系统**
   * `bot-logs`
     * 默认值：`true`
     * 描述：使用 Minecraft 的日志系统接管机器人日志
@@ -74,7 +74,7 @@ description: 此页介绍 MiraiMC 的配置文件
     * 默认值：`true`
     * 描述：使用 Minecraft 的日志系统接管机器网络人日志
     * 建议值：`true`
-* `contact-cache` <br> **此部分控制 Mirai 机器人的缓存机制，不建议普通用户修改**
+* `contact-cache` <br> **此部分控制 mirai 机器人的缓存机制，不建议普通用户修改**
   * `enable-friend-list-cache`
     * 默认值：`false`
     * 描述：开启好友列表缓存
@@ -87,8 +87,8 @@ description: 此页介绍 MiraiMC 的配置文件
     * 默认值：`60000`
     * 描述：有更新时的保存时间间隔，单位为毫秒
     * 建议值：`60000`
-  * **ℹ提示：** Mirai 在启动时会拉取全部好友列表和群成员列表。当账号拥有过多群时登录可能缓慢，开启列表缓存会大幅加速登录过程。
-  * **⚠警告：** Mirai 自动根据事件更新列表，并在每次登录时与服务器校验缓存有效性，**但有时候可能发生意外情况导致列表没有同步。** 建议在测试环境使用缓存，而在正式环境关闭缓存（默认关闭缓存）。
+  * **ℹ提示：** mirai 在启动时会拉取全部好友列表和群成员列表。当账号拥有过多群时登录可能缓慢，开启列表缓存会大幅加速登录过程。
+  * **⚠警告：** mirai 自动根据事件更新列表，并在每次登录时与服务器校验缓存有效性，**但有时候可能发生意外情况导致列表没有同步。** 建议在测试环境使用缓存，而在正式环境关闭缓存（默认关闭缓存）。
 * `register-encrypt-service`
   * 默认值：`false`
   * 描述：注册 MiraiMC 自有的第三方签名服务对接工具，通常用于解决机器人登录失败或发出的消息不可见等问题。

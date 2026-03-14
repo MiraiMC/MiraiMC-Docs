@@ -40,8 +40,8 @@ MiraiMC 插件通常开箱即用且不需要额外的配置。但如果你已经
 #### `general.mirai-working-dir`
 
 * 默认值：`default`
-* 描述：Mirai 的工作目录，有关 Mirai 机器人的数据都会存放在这个文件夹。如果此项为 `default`，则目录为 `/plugins/MiraiMC/MiraiBot`
-* 建议值：如果你已在使用 Mirai 机器人，请将此项改为 Mirai 机器人的根目录
+* 描述：mirai 的工作目录，有关 mirai 机器人的数据都会存放在这个文件夹。如果此项为 `default`，则目录为 `/plugins/MiraiMC/MiraiBot`
+* 建议值：如果你已在使用 mirai 机器人，请将此项改为 mirai 机器人的根目录
 
 ::: tip
 通常，mirai 机器人的根目录中包含 `bots`、`config`、`plugins` 等文件夹。
